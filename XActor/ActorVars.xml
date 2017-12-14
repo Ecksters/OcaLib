@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <Actors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Actor id="0000" name="player_actor">
     <Objects>
@@ -301,7 +301,7 @@
       <Object>0001</Object>
     </Objects>
     <Description>Standard Door</Description>
-    <Comment>if the fourth digit is not 0, then the doors will spawn artifacts of themselves</Comment>
+    <Comment>If the fourth digit is not 0, then the doors will spawn artifacts of themselves</Comment>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFC0</Capture>
@@ -391,7 +391,7 @@
     <Objects>
       <Object>000E</Object>
     </Objects>
-    <Description>Treasure chest</Description>
+    <Description>Treasure Chest</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xF000</Capture>
@@ -1051,7 +1051,7 @@
         </Value>
         <Value>
           <Data>69</Data>
-          <Description>Deku Seeds (30) or blue (5) rupee</Description>
+          <Description>Deku Seeds (30) or Blue (5) Rupee</Description>
           <Meta />
         </Value>
         <Value>
@@ -1206,7 +1206,7 @@
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Proximity activated flame wall</Description>
+    <Description>Proximity Activated Flame Wall</Description>
     <Variables>
       <Variable default="00FF">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -1356,7 +1356,7 @@
     <Objects>
       <Object>000B</Object>
     </Objects>
-    <Description>Wallmaster (Ceiling monster)</Description>
+    <Description>Wallmaster (Ceiling Monster)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFF</Capture>
@@ -1513,7 +1513,7 @@
       If Link has ≤ 1 heart, spawn a Healing Fairy
       else if Link has 2 to 3 hearts, spawn 3 Recovery Hearts, or 3 Green Rupees if Link is at full health
       else if Link has 4 to 5 hearts, spawn 1 Recovery Heart, or 1 Green Rupee if Link is at full health
-      else if Link has 0 magic, spawn a large magic jar, but if magic hasn't been unlocked, spawn nothing
+      else if Link has 0 magic, spawn a large magic jar, but if magic hasn't been unlocked, skip to next check
       else if Link is a child and has ≤ 5 Deku Seed, spawn Deku Seeds (5), but if he doesn't have a Slingshot, spawn nothing
       else if Link is an adult and has ≤ 5 Arrows, spawn Arrows (10), but if he doesn't have a Bow, spawn nothing
       else if Link has ≤ 5 Bombs, spawn Bombs (5), but if he doesn't have a Bomb Bag, spawn nothing
@@ -1945,7 +1945,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Room changing plane</Description>
+    <Description>Room Changing Plane</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0x03C0</Capture>
@@ -2068,7 +2068,7 @@
     <Objects>
       <Object>0076</Object>
     </Objects>
-    <Description>Wooden post with red cloth</Description>
+    <Description>Wooden Post with Red Cloth</Description>
     <Variables>
       <Variable default="FFFF">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -2107,7 +2107,7 @@
     <Objects>
       <Object>001D</Object>
     </Objects>
-    <Description>Princess Zelda child (at window)</Description>
+    <Description>Princess Zelda Child (at window)</Description>
     <Variables>
       <Variable default="FFFF">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -2164,7 +2164,7 @@
         </Value>
         <Value>
           <Data>07FF</Data>
-          <Description>Ganondorf hands crossed</Description>
+          <Description>Ganondorf Hands Crossed</Description>
           <Meta>
             <Object>009B</Object>
           </Meta>
@@ -2176,7 +2176,7 @@
         </Value>
         <Value>
           <Data>09FF</Data>
-          <Description>Ganondorf floating (Curse You)</Description>
+          <Description>Ganondorf Floating (Curse You)</Description>
           <Meta>
             <Object>00E1</Object>
           </Meta>
@@ -2301,7 +2301,7 @@
         </Value>
         <Value>
           <Data>0B</Data>
-          <Description>Key Locked door</Description>
+          <Description>Key locked door</Description>
           <Meta />
         </Value>
       </Variable>
@@ -2429,32 +2429,32 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Small grey stone block</Description>
+          <Description>Small Grey Stone Block</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Large grey stone block</Description>
+          <Description>Large Grey Stone Block</Description>
           <Meta />
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Huge grey stone block</Description>
+          <Description>Huge Grey Stone Block</Description>
           <Meta />
         </Value>
         <Value>
           <Data>03</Data>
-          <Description>Small grey stone block, rotates when you stand on it</Description>
+          <Description>Small Grey Stone Block, rotates when you stand on it</Description>
           <Meta />
         </Value>
         <Value>
           <Data>04</Data>
-          <Description>Large grey stone block, rotates when you stand on it</Description>
+          <Description>Large Grey Stone Block, rotates when you stand on it</Description>
           <Meta />
         </Value>
         <Value>
           <Data>05</Data>
-          <Description>Small grey stone cube</Description>
+          <Description>Small Grey Stone Cube</Description>
           <Meta />
         </Value>
         <Value>
@@ -2464,12 +2464,12 @@
         </Value>
         <Value>
           <Data>07</Data>
-          <Description>Grass clump</Description>
+          <Description>Grass Clump</Description>
           <Meta />
         </Value>
         <Value>
           <Data>08</Data>
-          <Description>Small tree stump</Description>
+          <Description>Small Tree Stump</Description>
           <Meta />
         </Value>
         <Value>
@@ -2484,7 +2484,7 @@
         </Value>
         <Value repeat="+">
           <Data>0C</Data>
-          <Description>Black knobby thing</Description>
+          <Description>Black Knobby Thing</Description>
           <Meta />
         </Value>
       </Variable>
@@ -2540,7 +2540,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Ambient sound effects</Description>
+    <Description>Ambient Sound Effects</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -2569,7 +2569,7 @@
         </Value>
         <Value>
           <Data>0004</Data>
-          <Description>Small stream</Description>
+          <Description>Small Stream</Description>
           <Meta />
         </Value>
         <Value>
@@ -2579,17 +2579,17 @@
         </Value>
         <Value>
           <Data>0006</Data>
-          <Description>Fire Temple’s lower ambient noise</Description>
+          <Description>Fire Temple’s Lower Ambient Noise</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0007</Data>
-          <Description>Fire Temple’s higher ambient noise</Description>
+          <Description>Fire Temple’s Higher Ambient Noise</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0008</Data>
-          <Description>Dripping noise (Well)</Description>
+          <Description>Dripping Noise (Well)</Description>
           <Meta />
         </Value>
         <Value>
@@ -2599,7 +2599,7 @@
         </Value>
         <Value>
           <Data>000A</Data>
-          <Description>Market gibberish</Description>
+          <Description>Market Gibberish</Description>
           <Meta />
         </Value>
         <Value>
@@ -2615,7 +2615,7 @@
         </Value>
         <Value>
           <Data>000E</Data>
-          <Description>Howling wind</Description>
+          <Description>Howling Wind</Description>
           <Meta />
         </Value>
         <Value>
@@ -2625,12 +2625,12 @@
         </Value>
         <Value>
           <Data>0010</Data>
-          <Description>Temple of Light’s dripping sounds</Description>
+          <Description>Temple of Light’s Dripping Sounds</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0011</Data>
-          <Description>Low booming-likish sound</Description>
+          <Description>Low Booming-likish Sound</Description>
           <Meta />
         </Value>
         <Value>
@@ -2655,7 +2655,7 @@
         </Value>
         <Value repeat="+">
           <Data>0016</Data>
-          <Description>Outside of the ambient noise domain</Description>
+          <Description>Outside of the Ambient Noise Domain</Description>
           <Meta />
         </Value>
         <Value>
@@ -2710,7 +2710,7 @@
     <Objects>
       <Object>0027</Object>
     </Objects>
-    <Description>Normal horse</Description>
+    <Description>Normal Horse</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -2817,7 +2817,7 @@
     <Objects>
       <Object>002A</Object>
     </Objects>
-    <Description>Great Deku Tree's jaw</Description>
+    <Description>Great Deku Tree's Jaw</Description>
     <Variables>
       <Variable default="FFFF">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -2855,12 +2855,12 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Lower Part (Flame decal)</Description>
+          <Description>Lower Part (Flame Decal)</Description>
           <Meta />
         </Value>
         <Value repeat="+">
           <Data>01</Data>
-          <Description>Top Part (Face decal)</Description>
+          <Description>Top Part (Face Decal)</Description>
           <Meta />
         </Value>
       </Variable>
@@ -2875,21 +2875,21 @@
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Huge stone spike platform (Fire Temple)</Description>
+    <Description>Huge Stone Spike Platform (Fire Temple)</Description>
     <Variables />
   </Actor>
   <Actor id="0042" name="En_Horse_Ganon">
     <Objects>
       <Object>002D</Object>
     </Objects>
-    <Description>Ganondorf's horse</Description>
+    <Description>Ganondorf's Horse</Description>
     <Variables />
   </Actor>
   <Actor id="0043" name="Bg_Hidan_Rock">
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Stone blocks (Fire Temple)</Description>
+    <Description>Stone Blocks (Fire Temple)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -2914,14 +2914,14 @@
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Spinning Stone flamethrower (Fire Temple)</Description>
+    <Description>Spinning Stone Flamethrower (Fire Temple)</Description>
     <Variables />
   </Actor>
   <Actor id="0045" name="Bg_Hidan_Sekizou">
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Stationary flame thrower statue (Fire Temple)</Description>
+    <Description>Stationary Flame Thrower Statue (Fire Temple)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -2944,7 +2944,7 @@
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Stone platform (Fire Temple)</Description>
+    <Description>Stone Platform (Fire Temple)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -2981,7 +2981,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Flame circle</Description>
+    <Description>Flame Circle</Description>
     <Comment>FIXME</Comment>
     <Variables>
       <Variable default="003F" nullable="true">
@@ -3130,14 +3130,14 @@
     <Objects>
       <Object>0035</Object>
     </Objects>
-    <Description>Lock on blue spot</Description>
+    <Description>Lock on Blue Spot</Description>
     <Variables />
   </Actor>
   <Actor id="0050" name="Bg_Ydan_Hasi">
     <Objects>
       <Object>0036</Object>
     </Objects>
-    <Description>Deku Tree Puzzle elements</Description>
+    <Description>Deku Tree Puzzle Elements</Description>
     <Comment>FIXME</Comment>
     <Variables>
       <Variable>
@@ -3151,12 +3151,12 @@
         <UI />
         <Value>
           <Data>00</Data>
-          <Description>Back and forth moving Platform</Description>
+          <Description>Back and Forth Moving Platform</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Water plane</Description>
+          <Description>Water Plane</Description>
           <Meta />
         </Value>
         <Value>
@@ -3176,7 +3176,7 @@
     <Objects>
       <Object>0036</Object>
     </Objects>
-    <Description>Rotating spike cylinder (Deku Tree)</Description>
+    <Description>Rotating Spike Cylinder (Deku Tree)</Description>
     <Variables />
   </Actor>
   <Actor id="0052" name="Boss_Ganondrof">
@@ -3190,7 +3190,7 @@
     <Objects>
       <Object>0038</Object>
     </Objects>
-    <Description>Armos statue</Description>
+    <Description>Armos Statue</Description>
     <Variables>
       <Variable default="FFFF">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -3261,7 +3261,7 @@
     <Objects>
       <Object>002B</Object>
     </Objects>
-    <Description>Rising stone platform (Dodongo's Cavern)</Description>
+    <Description>Rising Stone Platform (Dodongo's Cavern)</Description>
     <Variables />
   </Actor>
   <Actor id="0059" name="Bg_Breakwall">
@@ -3282,7 +3282,7 @@
         </Value>
         <Value>
           <Data>A0</Data>
-          <Description>Dodongo's Cavern cutscene</Description>
+          <Description>Dodongo's Cavern Cutscene</Description>
           <Meta />
         </Value>
       </Variable>
@@ -3328,7 +3328,7 @@
     <Objects>
       <Object>002B</Object>
     </Objects>
-    <Description>Stone stairs</Description>
+    <Description>Stone Stairs</Description>
     <Variables>
       <Variable default="3F" nullable="true">
         <Capture>v &amp;&gt;&gt; 0x3F</Capture>
@@ -3341,7 +3341,7 @@
     <Objects>
       <Object>0048</Object>
     </Objects>
-    <Description>Warp portals</Description>
+    <Description>Warp Portals</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -3467,7 +3467,7 @@
     <Objects>
       <Object>00BD</Object>
     </Objects>
-    <Description>Heart container</Description>
+    <Description>Heart Container</Description>
     <Variables />
   </Actor>
   <Actor id="0060" name="En_Dekunuts">
@@ -3495,7 +3495,7 @@
     <Objects>
       <Object>004D</Object>
     </Objects>
-    <Description>Large rotating stone ring</Description>
+    <Description>Large Rotating Stone Ring</Description>
     <Comment>Gerudo Training Grounds and Forest Temple</Comment>
     <Variables>
       <Variable default="003F" nullable="true">
@@ -3509,7 +3509,7 @@
     <Objects>
       <Object>004D</Object>
     </Objects>
-    <Description>Eye platform eye switches</Description>
+    <Description>Eye Platform Eye Switches</Description>
     <Variables>
       <Variable default="003F" nullable="true">
         <Capture>v &amp;&gt;&gt; 0x3F</Capture>
@@ -3552,17 +3552,17 @@
         </Value>
         <Value>
           <Data>1FFF</Data>
-          <Description>floating platforms in main/central room</Description>
+          <Description>Floating platforms in central room</Description>
           <Meta />
         </Value>
         <Value>
           <Data>2FFF</Data>
-          <Description>floating platforms in main/central room</Description>
+          <Description>Floating platforms in central room</Description>
           <Meta />
         </Value>
         <Value>
           <Data>3FFF</Data>
-          <Description>floating platforms in main/central room</Description>
+          <Description>Floating platforms in central room</Description>
           <Meta />
         </Value>
       </Variable>
@@ -3572,8 +3572,8 @@
     <Objects>
       <Object>0059</Object>
     </Objects>
-    <Description>Large square of water (Water Temple)</Description>
-    <Comment>used for the main pool of water</Comment>
+    <Description>Large Square of Water (Water Temple)</Description>
+    <Comment>Used for the main pool of water</Comment>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -3637,7 +3637,7 @@
     <Objects>
       <Object>005D</Object>
     </Objects>
-    <Description>Bubble (flying skull) enemy</Description>
+    <Description>Bubble (Flying Skull)</Description>
     <Variables>
       <Variable default="F">
         <Capture>v &amp;&gt;&gt; 0xF0</Capture>
@@ -3689,7 +3689,7 @@
     <Objects>
       <Object>005E</Object>
     </Objects>
-    <Description>Temple of Time windows</Description>
+    <Description>Temple of Time Windows</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -3717,14 +3717,14 @@
     <Objects>
       <Object>005F</Object>
     </Objects>
-    <Description>Flying floor tile</Description>
+    <Description>Flying Floor Tile</Description>
     <Variables />
   </Actor>
   <Actor id="006C" name="Bg_Toki_Swd">
     <Objects>
       <Object>005E</Object>
     </Objects>
-    <Description>Master sword + cinema</Description>
+    <Description>Master Sword + Cinema</Description>
     <Variables />
   </Actor>
   <Actor id="006E" name="Bg_Mjin">
@@ -3795,7 +3795,7 @@
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Metal gate</Description>
+    <Description>Metal Gate</Description>
     <Variables>
       <Variable default="3F" nullable="true">
         <Capture>v &amp;&gt;&gt; 0x3F00</Capture>
@@ -3879,7 +3879,7 @@
     <Objects>
       <Object>0077</Object>
     </Objects>
-    <Description>Brown bird (Alpha!)</Description>
+    <Description>Brown Bird (Alpha!)</Description>
     <Variables />
   </Actor>
   <Actor id="0077" name="En_Wood02">
@@ -3896,57 +3896,57 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Large tree</Description>
+          <Description>Large Tree</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Medium tree</Description>
+          <Description>Medium Tree</Description>
           <Meta />
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Small tree</Description>
+          <Description>Small Tree</Description>
           <Meta />
         </Value>
         <Value>
           <Data>03</Data>
-          <Description>Group of trees</Description>
+          <Description>Group of Trees</Description>
           <Meta />
         </Value>
         <Value>
           <Data>04</Data>
-          <Description>Medium tree</Description>
+          <Description>Medium Tree</Description>
           <Meta />
         </Value>
         <Value>
           <Data>05</Data>
-          <Description>Medium tree, dark brown trunk, greener leaves</Description>
+          <Description>Medium Tree, dark brown trunk, greener leaves</Description>
           <Meta />
         </Value>
         <Value>
           <Data>06</Data>
-          <Description>Group of trees, dark brown trunk, yellow leaves</Description>
+          <Description>Group of Trees, dark brown trunk, yellow leaves</Description>
           <Meta />
         </Value>
         <Value>
           <Data>07</Data>
-          <Description>Medium tree, dark brown trunk, yellow leaves</Description>
+          <Description>Medium Tree, dark brown trunk, yellow leaves</Description>
           <Meta />
         </Value>
         <Value>
           <Data>08</Data>
-          <Description>Group of trees, dark brown trunk, greener leaves</Description>
+          <Description>Group of Trees, dark brown trunk, greener leaves</Description>
           <Meta />
         </Value>
         <Value>
           <Data>09</Data>
-          <Description>Medium tree, dark brown trunk, greener leaves</Description>
+          <Description>Medium Tree, dark brown trunk, greener leaves</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0A</Data>
-          <Description>Ugly tree from Kakariko Village</Description>
+          <Description>Ugly Tree from Kakariko Village</Description>
           <Meta />
         </Value>
         <Value>
@@ -3956,12 +3956,12 @@
         </Value>
         <Value>
           <Data>0C</Data>
-          <Description>Large bush</Description>
+          <Description>Large Bush</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0D</Data>
-          <Description>Group of bushes</Description>
+          <Description>Group of Bushes</Description>
           <Meta />
         </Value>
         <Value>
@@ -3971,47 +3971,47 @@
         </Value>
         <Value>
           <Data>0F</Data>
-          <Description>Group of large bushes</Description>
+          <Description>Group of Large Bushes</Description>
           <Meta />
         </Value>
         <Value>
           <Data>10</Data>
-          <Description>Large bush</Description>
+          <Description>Large Bush</Description>
           <Meta />
         </Value>
         <Value>
           <Data>11</Data>
-          <Description>Dark bush</Description>
+          <Description>Dark Bush</Description>
           <Meta />
         </Value>
         <Value>
           <Data>12</Data>
-          <Description>Large dark bush</Description>
+          <Description>Large Dark Bush</Description>
           <Meta />
         </Value>
         <Value>
           <Data>13</Data>
-          <Description>Group of dark bushes</Description>
+          <Description>Group of Dark Bushes</Description>
           <Meta />
         </Value>
         <Value>
           <Data>14</Data>
-          <Description>Dark bush</Description>
+          <Description>Dark Bush</Description>
           <Meta />
         </Value>
         <Value>
           <Data>15</Data>
-          <Description>Group of large dark bushes</Description>
+          <Description>Group of Large Dark Bushes</Description>
           <Meta />
         </Value>
         <Value>
           <Data>16</Data>
-          <Description>Large dark bush</Description>
+          <Description>Large Dark Bush</Description>
           <Meta />
         </Value>
         <Value repeat="+">
           <Data>19</Data>
-          <Description>Dancing dark bush</Description>
+          <Description>Dancing Dark Bush</Description>
           <Comment>Disappears after several repetitions</Comment>
           <Meta />
         </Value>
@@ -4027,12 +4027,12 @@
         </Value>
         <Value>
           <Data>08</Data>
-          <Description>Deku seeds</Description>
+          <Description>Deku Seeds</Description>
           <Meta />
         </Value>
         <Value>
           <Data>09</Data>
-          <Description>Magic jars</Description>
+          <Description>Magic Jars</Description>
           <Meta />
         </Value>
         <Value>
@@ -4077,7 +4077,7 @@
     <Objects>
       <Object>0081</Object>
     </Objects>
-    <Description>Large noisy stone (Alpha!)</Description>
+    <Description>Large Noisy Stone (Alpha!)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -4115,7 +4115,7 @@
     <Objects>
       <Object>0082</Object>
     </Objects>
-    <Description>Stone cube (Alpha)</Description>
+    <Description>Stone Cube (Alpha)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -4123,7 +4123,7 @@
         <UI name="select" />
         <Value>
           <Data>0000</Data>
-          <Description>Stone cube, side struck with sword flashes blue</Description>
+          <Description>Side struck with sword flashes blue</Description>
           <Meta />
         </Value>
         <Value repeat="+">
@@ -4138,7 +4138,7 @@
     <Objects>
       <Object>0085</Object>
     </Objects>
-    <Description>Sliding metal spike trap</Description>
+    <Description>Sliding Metal Spike Trap</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFF</Capture>
@@ -4174,7 +4174,7 @@
         </Value>
         <Value repeat="+">
           <Data>60</Data>
-          <Description>doesn't move, but still makes noise</Description>
+          <Description>Doesn't move, but still makes noise</Description>
           <Meta />
         </Value>
         <Value>
@@ -4206,12 +4206,12 @@
         </Value>
         <Value>
           <Data>03</Data>
-          <Description>pretty fast</Description>
+          <Description>Pretty fast</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0F</Data>
-          <Description>too fast for collision to function correctly</Description>
+          <Description>Too fast for collision to function correctly</Description>
           <Meta />
         </Value>
       </Variable>
@@ -4228,7 +4228,7 @@
         </Value>
         <Value>
           <Data>0A</Data>
-          <Description>as wide as Ganondorf's chamber</Description>
+          <Description>As wide as Ganondorf's chamber</Description>
           <Meta />
         </Value>
       </Variable>
@@ -4238,14 +4238,14 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Alpha Arrow Trap</Description>
+    <Description>Arrow Trap (Alpha!)</Description>
     <Variables />
   </Actor>
   <Actor id="0082" name="En_Vase">
     <Objects>
       <Object>0086</Object>
     </Objects>
-    <Description>Orange pot (Alpha!)</Description>
+    <Description>Orange Pot (Alpha!)</Description>
     <Variables />
   </Actor>
   <Actor id="0084" name="En_Ta">
@@ -4267,7 +4267,7 @@
       <Object>0072</Object>
       <Object>0073</Object>
     </Objects>
-    <Description>Forest Temple, large, round platform</Description>
+    <Description>Forest Temple Large, Round Platform</Description>
     <Variables />
   </Actor>
   <Actor id="0087" name="Bg_Mori_Elevator">
@@ -4283,7 +4283,7 @@
       <Object>0072</Object>
       <Object>0073</Object>
     </Objects>
-    <Description>Forest Temple rotating walls from room before boss</Description>
+    <Description>Forest Temple Rotating Walls from Room Before Boss</Description>
     <Variables />
   </Actor>
   <Actor id="0089" name="Bg_Mori_Rakkatenjo">
@@ -4291,7 +4291,7 @@
       <Object>0072</Object>
       <Object>0073</Object>
     </Objects>
-    <Description>Forest Temple falling ceiling</Description>
+    <Description>Forest Temple Falling Ceiling</Description>
     <Variables />
   </Actor>
   <Actor id="008A" name="En_Vm">
@@ -4323,7 +4323,7 @@
         <Value>
           <Data>7</Data>
           <Description>Attacking Beamos</Description>
-          <Comment>shoots lazer within proximity/range. Value not used for spawning</Comment>
+          <Comment>Shoots laser within proximity/range. Value not used for spawning</Comment>
           <Meta />
         </Value>
         <Value>
@@ -4667,14 +4667,14 @@
         </Value>
         <Value>
           <Data>0010</Data>
-          <Description>Warp song arriving effect</Description>
+          <Description>Warp Song arriving effect</Description>
           <Meta>
             <Object>0001</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0011</Data>
-          <Description>Sparkly effect</Description>
+          <Description>Sparkly Effect</Description>
           <Meta>
             <Object>0001</Object>
           </Meta>
@@ -4686,7 +4686,7 @@
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Large flame wall</Description>
+    <Description>Large Flame Wall</Description>
     <Variables />
   </Actor>
   <Actor id="008E" name="En_Floormas">
@@ -4729,7 +4729,7 @@
         </Value>
         <Value>
           <Data>05</Data>
-          <Description>Standing guard</Description>
+          <Description>Standing Guard</Description>
           <Comment>Immediately unloads self if the current world time is &lt;= B888, or if it's currently day</Comment>
           <Meta />
         </Value>
@@ -4780,7 +4780,7 @@
         </Value>
         <Value repeat="+">
           <Data>FF80</Data>
-          <Description>Gibdo lying down, floats up into standing position (supposed to be in a coffin)</Description>
+          <Description>Gibdo lying down, floats up into standing position (from coffin)</Description>
           <Meta />
         </Value>
         <Value>
@@ -4790,7 +4790,7 @@
         </Value>
         <Value>
           <Data>FFFF</Data>
-          <Description>ReDead, standing</Description>
+          <Description>Redead, standing</Description>
           <Meta />
         </Value>
       </Variable>
@@ -4807,7 +4807,7 @@
     <Objects>
       <Object>009A</Object>
     </Objects>
-    <Description>Golden Gauntlets rock</Description>
+    <Description>Golden Gauntlets Rock</Description>
     <Variables />
   </Actor>
   <Actor id="0093" name="Bg_Po_Event">
@@ -4872,12 +4872,12 @@
         </Value>
         <Value>
           <Data>03</Data>
-          <Description>Bug</Description>
+          <Description>Bugs</Description>
           <Meta />
         </Value>
         <Value>
           <Data>04</Data>
-          <Description>Butterfly</Description>
+          <Description>Butterflies</Description>
           <Meta />
         </Value>
       </Variable>
@@ -4974,18 +4974,18 @@
         </Value>
         <Value>
           <Data>04</Data>
-          <Description>Gold Skulltula, Always Spawns</Description>
+          <Description>Gold Skulltula, always spawns</Description>
           <Meta />
         </Value>
         <Value>
           <Data>05</Data>
-          <Description>Gold Skulltula, Spawns at night</Description>
+          <Description>Gold Skulltula, spawns at night</Description>
           <Meta />
         </Value>
       </Variable>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0x1F00</Capture>
-        <Description>Gold Skulltula region, for saving gold skulltulas</Description>
+        <Description>Gold Skulltula Region, for saving gold skulltulas</Description>
         <UI />
         <Value>
           <Data>00</Data>
@@ -5173,7 +5173,7 @@
         <UI />
         <Value>
           <Data>0000</Data>
-          <Description>Kokiri Forest flying Fairies/dustmotes</Description>
+          <Description>Kokiri Forest Flying Fairies/Dustmotes</Description>
           <Meta>
             <Object>????</Object>
           </Meta>
@@ -5195,7 +5195,7 @@
         </Value>
         <Value>
           <Data>0004</Data>
-          <Description>Kakariko Graveyard proximity rain effect?</Description>
+          <Description>Kakariko Graveyard Proximity Rain Effect?</Description>
           <Meta>
             <Object>????</Object>
           </Meta>
@@ -5269,7 +5269,7 @@
         </Value>
         <Value>
           <Data>2</Data>
-          <Description>Appear when Bombed or hit with Megaton Hammer</Description>
+          <Description>Appear when bombed or hit with Megaton Hammer</Description>
           <Meta />
         </Value>
       </Variable>
@@ -5318,7 +5318,7 @@
         </Value>
         <Value>
           <Data>07</Data>
-          <Description>Bombs (1)</Description>
+          <Description>None (Bombs (1))</Description>
           <Comment>Used for no item when chest does not exist</Comment>
           <Meta />
         </Value>
@@ -5364,7 +5364,7 @@
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Small square patch of moss-colored ground</Description>
+          <Description>Small Square Patch of Moss-Colored Ground</Description>
           <Meta />
         </Value>
         <Value>
@@ -5548,7 +5548,7 @@
       <Object>0001</Object>
       <Object>????</Object>
     </Objects>
-    <Description>Enemy spawner</Description>
+    <Description>Enemy Spawner</Description>
     <Comment>The object file for the enemy being spawned must also be loaded</Comment>
     <Variables>
       <Variable>
@@ -5626,7 +5626,7 @@
     <Objects>
       <Object>009E</Object>
     </Objects>
-    <Description>Core Flare Dancer creature</Description>
+    <Description>Core Flare Dancer Creature</Description>
     <Comment>Has trouble running? Tends to stay in one place or run in one direction; if it jumps up, it'll disappear</Comment>
     <Variables>
       <Variable>
@@ -5650,7 +5650,7 @@
     <Objects>
       <Object>009C</Object>
     </Objects>
-    <Description>? Volvagia objects</Description>
+    <Description>? Volvagia Objects</Description>
     <Comment>Spawned by Volvagia</Comment>
     <Variables />
   </Actor>
@@ -5658,7 +5658,7 @@
     <Objects>
       <Object>009C</Object>
     </Objects>
-    <Description>Volvagia rocks</Description>
+    <Description>Volvagia Rocks</Description>
     <Comment>Spawned by Volvagia</Comment>
     <Variables />
   </Actor>
@@ -5693,7 +5693,7 @@
         </Value>
         <Value>
           <Data>0006</Data>
-          <Description>Wall of Skulls</Description>
+          <Description>Wall of skulls</Description>
           <Meta />
         </Value>
         <Value>
@@ -5776,7 +5776,7 @@
     <Objects>
       <Object>0069</Object>
     </Objects>
-    <Description>Shadow Temple ship</Description>
+    <Description>Shadow Temple Ship</Description>
     <Comment-Other>
       old notes
       0000 = Normal, doesn't react to Zelda’s Lullaby
@@ -5829,7 +5829,7 @@
     <Objects>
       <Object>0097</Object>
     </Objects>
-    <Description>Hyrulian guards</Description>
+    <Description>Hyrulian Guards</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -5847,7 +5847,7 @@
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Hyrule Castle guard</Description>
+          <Description>Hyrule Castle Guard</Description>
           <Meta />
         </Value>
         <Value>
@@ -5862,12 +5862,12 @@
         </Value>
         <Value>
           <Data>0005</Data>
-          <Description>Death Mountain gate guard</Description>
+          <Description>Death Mountain Gate Guard</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0006</Data>
-          <Description>Ceremonial guard</Description>
+          <Description>Ceremonial Guard</Description>
           <Comment>Seen through Zelda's window</Comment>
           <Meta />
         </Value>
@@ -5885,7 +5885,7 @@
     <Objects>
       <Object>0092</Object>
     </Objects>
-    <Description>Flying rubble</Description>
+    <Description>Flying Rubble</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -5923,11 +5923,11 @@
     <Objects>
       <Object>00AC</Object>
     </Objects>
-    <Description>Flobbery muscle block (Jabu-Jabu's Belly)</Description>
+    <Description>Flobbery Muscle Block (Jabu-Jabu's Belly)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFF</Capture>
-        <Description>height of the muscle block</Description>
+        <Description>Height of the muscle block</Description>
         <UI />
         <Value>
           <Data>00</Data>
@@ -6056,7 +6056,7 @@
         </Value>
         <Value>
           <Data>000A</Data>
-          <Description>might spawn jellyfish</Description>
+          <Description>Might spawn jellyfish</Description>
           <Meta />
         </Value>
         <Value uihide="true" repeat="+">
@@ -6081,7 +6081,7 @@
     <Objects>
       <Object>0069</Object>
     </Objects>
-    <Description>Giant skull jar</Description>
+    <Description>Giant Skull Jar</Description>
     <Comment>
       blue flames on top, ejects key when destroyed?
       FIXME: Room spawns collectible key, probably just bombable
@@ -6092,7 +6092,7 @@
     <Objects>
       <Object>0069</Object>
     </Objects>
-    <Description>Shadow Temple objects</Description>
+    <Description>Shadow Temple Objects</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -6142,7 +6142,7 @@
     <Objects>
       <Object>008D</Object>
     </Objects>
-    <Description>Coffin lid</Description>
+    <Description>Coffin Lid</Description>
     <Variables>
       <Variable default="3F" nullable="true">
         <Capture>v &amp;&gt;&gt; 0x3F</Capture>
@@ -6173,13 +6173,13 @@
         <UI />
         <Value>
           <Data>00</Data>
-          <Description>Giant bird statue</Description>
+          <Description>Giant Bird Statue</Description>
           <Comment>Bombing it makes it fall</Comment>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Bombable wall of skulls</Description>
+          <Description>Bombable Wall of Skulls</Description>
           <Meta />
         </Value>
         <Value>
@@ -6205,7 +6205,7 @@
     <Objects>
       <Object>00B1</Object>
     </Objects>
-    <Description>Crater smoke cone</Description>
+    <Description>Crater Smoke Cone</Description>
     <Variables />
   </Actor>
   <Actor id="00C0" name="En_Syateki_Itm">
@@ -6219,14 +6219,14 @@
     <Objects>
       <Object>005B</Object>
     </Objects>
-    <Description>Shooting Gallery man</Description>
+    <Description>Shooting Gallery Man</Description>
     <Variables />
   </Actor>
   <Actor id="00C2" name="En_Tana">
     <Objects>
       <Object>00B2</Object>
     </Objects>
-    <Description>Shop shelves</Description>
+    <Description>Shop Shelves</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -6322,7 +6322,7 @@
     <Objects>
       <Object>0096</Object>
     </Objects>
-    <Description>Lord Jabu-Jabu objects</Description>
+    <Description>Lord Jabu-Jabu Objects</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFF</Capture>
@@ -6330,22 +6330,22 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Giant Octo's platform</Description>
+          <Description>Giant Octo's Platform</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Elevator platform</Description>
+          <Description>Elevator Platform</Description>
           <Meta />
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Water square, rises when Switch Flag is set</Description>
+          <Description>Water Square, rises when Switch Flag is set</Description>
           <Meta />
         </Value>
         <Value>
           <Data>03</Data>
-          <Description>Lowering platform, triggered when jumped on and sets Switch Flag</Description>
+          <Description>Lowering Platform, triggered when jumped on and sets Switch Flag</Description>
           <Meta />
         </Value>
         <Value uihide="true" repeat="+">
@@ -6467,7 +6467,7 @@
     <Objects>
       <Object>002C</Object>
     </Objects>
-    <Description>Bombable walls (Fire Temple)</Description>
+    <Description>Bombable Walls (Fire Temple)</Description>
     <Variables>
       <Variable default="3F" nullable="true">
         <Capture>v &amp;&gt;&gt; 0x3F00</Capture>
@@ -6480,17 +6480,17 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Cracked stone floor</Description>
+          <Description>Cracked Stone Floor</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Bombable stone wall</Description>
+          <Description>Bombable Stone Wall</Description>
           <Meta />
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Large bombable stone wall</Description>
+          <Description>Large Bombable Stone Wall</Description>
           <Meta />
         </Value>
       </Variable>
@@ -6550,7 +6550,7 @@
     <Objects>
       <Object>0059</Object>
     </Objects>
-    <Description>Water noise</Description>
+    <Description>Water Noise</Description>
     <Variables />
   </Actor>
   <Actor id="00D5" name="Bg_Spot06_Objects">
@@ -6575,12 +6575,12 @@
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Gate lock</Description>
+          <Description>Gate Lock</Description>
           <Meta />
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Water plane</Description>
+          <Description>Water Plane</Description>
           <Meta />
         </Value>
         <Value>
@@ -6601,7 +6601,7 @@
     <Objects>
       <Object>006B</Object>
     </Objects>
-    <Description>Movable ice block</Description>
+    <Description>Movable Ice Block</Description>
     <Variables />
   </Actor>
   <Actor id="00D7" name="Bg_Haka_Water">
@@ -6694,7 +6694,7 @@
     <Objects>
       <Object>00D5</Object>
     </Objects>
-    <Description>Tentacle from inside Lord Jabu-Jabu</Description>
+    <Description>Tentacle from Jabu-Jabu</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -6702,7 +6702,7 @@
         <UI name="select" />
         <Value>
           <Data>0000</Data>
-          <Description>Reddish brown</Description>
+          <Description>Reddish Brown</Description>
           <Meta />
         </Value>
         <Value>
@@ -6712,7 +6712,7 @@
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Grayish blue with some red</Description>
+          <Description>Grayish Blue with some red</Description>
           <Meta />
         </Value>
         <Value repeat="+">
@@ -6735,7 +6735,7 @@
         <UI name="select" />
         <Value>
           <Data>0000</Data>
-          <Description>Reddish brown</Description>
+          <Description>Reddish Brown</Description>
           <Meta />
         </Value>
         <Value>
@@ -6745,7 +6745,7 @@
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Grayish blue with some red</Description>
+          <Description>Grayish Blue with some red</Description>
           <Meta />
         </Value>
         <Value>
@@ -6755,12 +6755,12 @@
         </Value>
         <Value>
           <Data>0004</Data>
-          <Description>Dark brownish</Description>
+          <Description>Dark Brownish</Description>
           <Meta />
         </Value>
         <Value repeat="+">
           <Data>0005</Data>
-          <Description>Blackish gray</Description>
+          <Description>Blackish Gray</Description>
           <Meta />
         </Value>
       </Variable>
@@ -6785,7 +6785,7 @@
       <Object>0072</Object>
       <Object>0073</Object>
     </Objects>
-    <Description>Forest Temple ladder</Description>
+    <Description>Forest Temple Ladder</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -6793,7 +6793,7 @@
         <UI name="none" />
         <Value>
           <Data>0000</Data>
-          <Description>Wooden ladder</Description>
+          <Description>Wooden Ladder</Description>
           <Meta />
         </Value>
       </Variable>
@@ -6804,7 +6804,7 @@
       <Object>0072</Object>
       <Object>0073</Object>
     </Objects>
-    <Description>Forest Temple objects</Description>
+    <Description>Forest Temple Objects</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFF</Capture>
@@ -6812,12 +6812,12 @@
         <UI name="select" />
         <Value>
           <Data>0000</Data>
-          <Description>Rotating platforms</Description>
+          <Description>Rotating Platforms</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Metal gate</Description>
+          <Description>Metal Gate</Description>
           <Meta />
         </Value>
       </Variable>
@@ -6846,7 +6846,7 @@
     <Objects>
       <Object>017A</Object>
     </Objects>
-    <Description>Death Mountain cloud ring</Description>
+    <Description>Death Mountain Cloud Ring</Description>
     <Variables>
       <Variable default="FFFF">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -6965,7 +6965,7 @@
     <Objects>
       <Object>00E2</Object>
     </Objects>
-    <Description>Bongo Bongo's hand</Description>
+    <Description>Bongo Bongo's Hand</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -6973,12 +6973,12 @@
         <UI name="select" />
         <Value>
           <Data>0000</Data>
-          <Description>Left hand</Description>
+          <Description>Left Hand</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Right hand</Description>
+          <Description>Right Hand</Description>
           <Meta />
         </Value>
         <Value>
@@ -7093,7 +7093,7 @@
     <Objects>
       <Object>00E5</Object>
     </Objects>
-    <Description>Spike enemy (Water Temple)</Description>
+    <Description>Spike Enemy (Water Temple)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -7196,27 +7196,27 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Large crystal</Description>
+          <Description>Large Crystal</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Smaller crystal</Description>
+          <Description>Smaller Crystal</Description>
           <Meta />
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Crystal platform</Description>
+          <Description>Crystal Platform</Description>
           <Meta />
         </Value>
         <Value>
           <Data>03</Data>
-          <Description>Meltable ice sheet</Description>
+          <Description>Meltable Ice Sheet</Description>
           <Meta />
         </Value>
         <Value>
           <Data>04</Data>
-          <Description>Giant crystal</Description>
+          <Description>Giant Crystal</Description>
           <Meta />
         </Value>
         <Value uihide="true">
@@ -7391,7 +7391,7 @@
     <Objects>
       <Object>0069</Object>
     </Objects>
-    <Description>Shadow Temple truth spinner</Description>
+    <Description>Shadow Temple Truth Spinner</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFF</Capture>
@@ -7435,7 +7435,7 @@
       <Object>00F0</Object>
     </Objects>
     <Description>Hyrule Castle Gate</Description>
-    <Comment>not market town gate</Comment>
+    <Comment>Not Market Town gate</Comment>
     <Variables>
       <Variable default="FFFF">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -7449,7 +7449,7 @@
       <Object>011F</Object>
     </Objects>
     <Description>Giant Rolling Boulder</Description>
-    <Comment>moves very slowly in some cases</Comment>
+    <Comment>Moves very slowly in some cases</Comment>
     <Variables />
   </Actor>
   <Actor id="00FA" name="Bg_Jya_Zurerukabe">
@@ -7463,7 +7463,7 @@
     <Objects>
       <Object>00F1</Object>
     </Objects>
-    <Description>Rotating Cobra mirror</Description>
+    <Description>Rotating Cobra Mirror</Description>
     <Variables>
       <Variable default="">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -7471,14 +7471,14 @@
         <UI />
         <Value>
           <Data>0000</Data>
-          <Description>Large shadow</Description>
-          <Comment>looks like it’s reproduced, well-done though</Comment>
+          <Description>Large Shadow</Description>
+          <Comment>Looks like it’s reproduced, well-done though</Comment>
           <Meta />
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Small shadow</Description>
-          <Comment>same technique</Comment>
+          <Description>Small Shadow</Description>
+          <Comment>Same technique</Comment>
           <Meta />
         </Value>
         <Value>
@@ -7498,14 +7498,14 @@
     <Objects>
       <Object>00F1</Object>
     </Objects>
-    <Description>Climbable metal grating (Fire Temple)</Description>
+    <Description>Climbable Metal Grating (Fire Temple)</Description>
     <Variables />
   </Actor>
   <Actor id="00FE" name="Fishing">
     <Objects>
       <Object>015B</Object>
     </Objects>
-    <Description>Fishing pond man and Fish</Description>
+    <Description>Fishing Pond Man and Fish</Description>
     <Variables>
       <Variable default="">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -7617,14 +7617,14 @@
     <Objects>
       <Object>0181</Object>
     </Objects>
-    <Description>Death Mountain trail gate</Description>
+    <Description>Death Mountain Trail Gate</Description>
     <Variables />
   </Actor>
   <Actor id="0101" name="Eff_Dust">
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Sparklies gathering together</Description>
+    <Description>Sparklies Gathering Together</Description>
     <Variables>
       <Variable default="">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -7632,12 +7632,12 @@
         <UI />
         <Value>
           <Data>0000</Data>
-          <Description>Rushing white particles (Jabu-Jabu, when he opens his mouth)</Description>
+          <Description>Rushing White Particles (Jabu-Jabu, when he opens his mouth)</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Rushing white particles to one point (???)</Description>
+          <Description>Rushing White Particles to one point (???)</Description>
           <Meta />
         </Value>
         <Value repeat="+">
@@ -7657,21 +7657,21 @@
     <Objects>
       <Object>00F9</Object>
     </Objects>
-    <Description>Windmill sails</Description>
+    <Description>Windmill Sails</Description>
     <Variables />
   </Actor>
   <Actor id="0103" name="Bg_Spot01_Idohashira">
     <Objects>
       <Object>00F9</Object>
     </Objects>
-    <Description>Kakariko Village well crossbeam</Description>
+    <Description>Kakariko Village Well Crossbeam</Description>
     <Variables />
   </Actor>
   <Actor id="0104" name="Bg_Spot01_Idomizu">
     <Objects>
       <Object>00F9</Object>
     </Objects>
-    <Description>Kakariko Village well water</Description>
+    <Description>Kakariko Village Well Water</Description>
     <Variables>
       <Variable default="">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -7796,7 +7796,7 @@
       <Object>0001</Object>
       <Object>????</Object>
     </Objects>
-    <Description>Collectible items</Description>
+    <Description>Collectible Items</Description>
     <Variables>
       <Variable default="">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -7811,14 +7811,14 @@
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Bottle with letter</Description>
+          <Description>Bottle with Letter</Description>
           <Meta>
             <Object>010B</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Hylian shield</Description>
+          <Description>Hylian Shield</Description>
           <Meta>
             <Object>00DC</Object>
           </Meta>
@@ -7846,7 +7846,7 @@
         </Value>
         <Value>
           <Data>0006</Data>
-          <Description>Small key</Description>
+          <Description>Small Key</Description>
           <Meta>
             <Object>00AA</Object>
           </Meta>
@@ -7885,7 +7885,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Breakable pot</Description>
+    <Description>Breakable Pot</Description>
     <Variables>
       <Variable default="">
         <Capture>v &amp;&gt;&gt; 0x7E00</Capture>
@@ -7923,7 +7923,7 @@
         </Value>
         <Value>
           <Data>03</Data>
-          <Description>Invisible collision box, drops collectible when hit</Description>
+          <Description>Invisible Collision Box, drops collectible when hit</Description>
           <Comment>See Z-Rotation for parameters</Comment>
           <Meta />
         </Value>
@@ -7941,12 +7941,12 @@
         </Value>
         <Value>
           <Data>07</Data>
-          <Description>Invisible collision box, set switch flag when touched</Description>
+          <Description>Invisible Collision Box, set switch flag when touched</Description>
           <Meta />
         </Value>
         <Value>
           <Data>08</Data>
-          <Description>Slingshot hittable collision box, spawns Hylian Soldier (actor 00B3) who throws a bomb</Description>
+          <Description>Slingshot Hittable Collision Box, spawns Hylian Soldier (actor 00B3) who throws a bomb</Description>
           <Meta />
         </Value>
       </Variable>
@@ -8030,7 +8030,7 @@
       </Variable>
       <Variable>
         <Capture>rz &amp;&gt;&gt; 0xFFFF</Capture>
-        <Description>Number of collectibles spawned</Description>
+        <Description>Number spawned</Description>
         <Comment>Type 02 only</Comment>
         <UI name="num">
           <Param id="display">int</Param>
@@ -8038,7 +8038,7 @@
       </Variable>
       <Variable>
         <Capture>rz &amp;&gt;&gt; 0xFF</Capture>
-        <Description>Trigger used to spawn item</Description>
+        <Description>Trigger to activate</Description>
         <Comment>Type 03 only</Comment>
         <UI name="select" />
         <Value>
@@ -8122,7 +8122,7 @@
     <Objects>
       <Object>0106</Object>
     </Objects>
-    <Description>Iron Knuckle armor pieces (Spirit Temple Nabooru fight)</Description>
+    <Description>Iron Knuckle Armor Pieces (Spirit Temple Nabooru fight)</Description>
     <Variables />
   </Actor>
   <Actor id="0115" name="En_Skj">
@@ -8136,7 +8136,7 @@
     <Objects>
       <Object>010A</Object>
     </Objects>
-    <Description>Skullkid needle attack</Description>
+    <Description>Skullkid Needle Attack</Description>
     <Variables />
   </Actor>
   <Actor id="0117" name="En_G_Switch">
@@ -8164,7 +8164,7 @@
     <Objects>
       <Object>0168</Object>
     </Objects>
-    <Description>Deku salesman</Description>
+    <Description>Deku Salesman</Description>
     <Variables>
       <Variable default="">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -8247,7 +8247,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Navi information spot</Description>
+    <Description>Navi Information Spot</Description>
     <Variables>
       <Variable default="">
         <Capture>v &amp;&gt;&gt; 0x8000</Capture>
@@ -9111,17 +9111,17 @@
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Heat-Seeking flame</Description>
+          <Description>Heat-Seeking Flame</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0003</Data>
-          <Description>Immobile flame, dies</Description>
+          <Description>Immobile Flame, dies</Description>
           <Meta />
         </Value>
         <Value repeat="+">
           <Data>0004</Data>
-          <Description>Flame sound effect</Description>
+          <Description>Flame Sound Effect</Description>
           <Meta />
         </Value>
       </Variable>
@@ -9189,21 +9189,21 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Ice spawned by red ice? frozen actors</Description>
+    <Description>Ice Spawned by Red Ice? Frozen Actors</Description>
     <Variables />
   </Actor>
   <Actor id="011F" name="Bg_Spot03_Taki">
     <Objects>
       <Object>0112</Object>
     </Objects>
-    <Description>Zora's River waterfall</Description>
+    <Description>Zora's River Waterfall</Description>
     <Variables />
   </Actor>
   <Actor id="0120" name="Bg_Spot07_Taki">
     <Objects>
       <Object>0113</Object>
     </Objects>
-    <Description>Zora's Domain waterfall</Description>
+    <Description>Zora's Domain Waterfall</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -9226,7 +9226,7 @@
     <Objects>
       <Object>0114</Object>
     </Objects>
-    <Description>Frezzard</Description>
+    <Description>Freezzard</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -9274,12 +9274,12 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Rotating platform</Description>
+          <Description>Rotating Platform</Description>
           <Meta />
         </Value>
         <Value repeat="+">
           <Data>01</Data>
-          <Description>Thick stone door</Description>
+          <Description>Thick Stone Door</Description>
           <Comment>Opened when Dampe approaches //FIXME: Investigate more</Comment>
           <Meta />
         </Value>
@@ -9295,7 +9295,7 @@
     <Objects>
       <Object>00FE</Object>
     </Objects>
-    <Description>Zora diving game</Description>
+    <Description>Zora Diving Game</Description>
     <Variables />
   </Actor>
   <Actor id="0125" name="En_Kusa">
@@ -9303,7 +9303,7 @@
       <Object>0001</Object>
       <Object>????</Object>
     </Objects>
-    <Description>Single Bush/Grass</Description>
+    <Description>Single Shrub</Description>
     <Comment> Liftable &amp; cut-able</Comment>
     <Variables>
       <Variable>
@@ -9312,14 +9312,14 @@
         <UI />
         <Value>
           <Data>00</Data>
-          <Description>Normal shrub. Random drops.</Description>
+          <Description>Normal Shrub, random drops</Description>
           <Meta>
             <Object>0002</Object>
           </Meta>
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Cut-able, regenerating grass. Custom random drops</Description>
+          <Description>Cuttable, regenerating grass, drops hearts or ammo</Description>
           <Comment>Drops: Heart, Arrows or Deku Seeds</Comment>
           <Meta>
             <Object>012B</Object>
@@ -9327,7 +9327,7 @@
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Cut-able grass</Description>
+          <Description>Cuttable Grass</Description>
           <Comment>Set drop table via Random Drop Table param</Comment>
           <Meta>
             <Object>012B</Object>
@@ -9360,7 +9360,7 @@
     <Objects>
       <Object>011E</Object>
     </Objects>
-    <Description>Bean planting spot</Description>
+    <Description>Bean Planting Spot</Description>
     <Comment>FIXME</Comment>
     <Variables />
   </Actor>
@@ -9368,7 +9368,7 @@
     <Objects>
       <Object>0163</Object>
     </Objects>
-    <Description>Brown boulder</Description>
+    <Description>Brown Boulder</Description>
     <Comment>FIXME</Comment>
     <Variables>
       <Variable>
@@ -9406,17 +9406,17 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Floor switch</Description>
+          <Description>Floor Switch</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Rusted floor switch</Description>
+          <Description>Rusted Floor Switch</Description>
           <Meta />
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Yellow eye switch</Description>
+          <Description>Yellow Eye Switch</Description>
           <Meta />
         </Value>
         <Value>
@@ -9468,7 +9468,7 @@
     <Objects>
       <Object>011B</Object>
     </Objects>
-    <Description>Huge stone elevator</Description>
+    <Description>Huge Stone Elevator</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0x1</Capture>
@@ -9517,7 +9517,7 @@
     <Objects>
       <Object>011D</Object>
     </Objects>
-    <Description>Square, collapsing platform</Description>
+    <Description>Square, Collapsing Platform</Description>
     <Comment>
       FIXME: new notation
       xxyy - xx controls delay, yy controls size
@@ -9534,7 +9534,7 @@
     <Objects>
       <Object>011C</Object>
     </Objects>
-    <Description>Stone Hookshot target</Description>
+    <Description>Stone Hookshot Target</Description>
     <Comment>FIXME</Comment>
     <Variables>
       <Variable>
@@ -9543,7 +9543,7 @@
         <UI />
         <Value>
           <Data>0000</Data>
-          <Description>Square hookshot target tower</Description>
+          <Description>Square Hookshot Target Tower</Description>
           <Meta />
         </Value>
         <Value>
@@ -9553,7 +9553,7 @@
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Square hookshot stone</Description>
+          <Description>Square Hookshot Stone</Description>
           <Meta />
         </Value>
         <Value>
@@ -9574,7 +9574,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Music Staff (Ocarina) spot</Description>
+    <Description>Music Staff Ocarina Spot</Description>
     <Comment>FIXME</Comment>
     <Variables>
       <Variable>
@@ -9588,7 +9588,7 @@
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Windmill, Song of Storms spot (cutscene)</Description>
+          <Description>Windmill, Song of Storms Spot (cutscene)</Description>
           <Meta />
         </Value>
         <Value>
@@ -9598,17 +9598,17 @@
         </Value>
         <Value>
           <Data>04</Data>
-          <Description>Temple of Time, Song of Time spot (cutscene)</Description>
+          <Description>Temple of Time, Song of Time Spot (cutscene)</Description>
           <Meta />
         </Value>
         <Value>
           <Data>05</Data>
-          <Description>Learn Sun's Song spot</Description>
+          <Description>Learn Sun's Song Spot</Description>
           <Meta />
         </Value>
         <Value>
           <Data>06</Data>
-          <Description>Royal Family Tomb, Zelda's Lullaby spot</Description>
+          <Description>Royal Family Tomb, Zelda's Lullaby Spot</Description>
           <Meta />
         </Value>
         <Value>
@@ -9654,12 +9654,12 @@
         </Value>
         <Value>
           <Data>07</Data>
-          <Description>Create Bonooru Song spot</Description>
+          <Description>Create Bonooru Song Spot</Description>
           <Meta />
         </Value>
         <Value>
           <Data>08</Data>
-          <Description>Create Pierre's Song (long song) spot?</Description>
+          <Description>Create Pierre's Song (long song) Spot?</Description>
           <Meta />
         </Value>
         <Value>
@@ -9669,12 +9669,12 @@
         </Value>
         <Value>
           <Data>0C</Data>
-          <Description>Playback of random 3 notes (Skull Kid Ocarina Minigame)</Description>
+          <Description>Playback of Random 3 Notes (Skull Kid Ocarina Minigame)</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0F</Data>
-          <Description>All 6 non-warp songs / Preset song</Description>
+          <Description>All 6 Non-Warp Songs / Preset song</Description>
           <Meta />
         </Value>
       </Variable>
@@ -9689,7 +9689,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Horseback Archery target (arrow hitbox)</Description>
+    <Description>Horseback Archery target (Arrow Hitbox)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -9702,12 +9702,12 @@
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Mounted Target (smaller)</Description>
+          <Description>Mounted Target (Smaller)</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Mounted Target (big, center one)</Description>
+          <Description>Mounted Target (Big, center one)</Description>
           <Meta />
         </Value>
       </Variable>
@@ -9767,27 +9767,27 @@
         <UI />
         <Value>
           <Data>0000</Data>
-          <Description>Sparkling blue rupee</Description>
+          <Description>Sparkling Blue Rupee</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Huge magenta rupee, explodes when touched (BETA)</Description>
+          <Description>Huge Magenta Rupee, explodes when touched (BETA)</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Blue, red, and orange rupees, explode when touched (BETA)</Description>
+          <Description>Blue, Red, and Orange Rupees, explode when touched (BETA)</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0003</Data>
-          <Description>Random-colored rupees, collectible</Description>
+          <Description>Random-Colored Rupees, collectible</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0004</Data>
-          <Description>Green rupees underground, not collectible (BETA)</Description>
+          <Description>Green Rupees Underground, not collectible (BETA)</Description>
           <Meta />
         </Value>
         <Value repeat="+">
@@ -9843,14 +9843,14 @@
     <Objects>
       <Object>0124</Object>
     </Objects>
-    <Description>Non-solid round creatures (Alpha!)</Description>
+    <Description>Non-solid Round Creatures (Alpha!)</Description>
     <Variables />
   </Actor>
   <Actor id="0136" name="En_Blkobj">
     <Objects>
       <Object>0125</Object>
     </Objects>
-    <Description>Dark Link's illusion room</Description>
+    <Description>Dark Link's Illusion Room</Description>
     <Variables />
   </Actor>
   <Actor id="0137" name="Item_Inbox">
@@ -9863,7 +9863,7 @@
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
         <Description>Value</Description>
-        <Comment>pattern repeats after 003F (Probably 3B-&gt;3F cycle)</Comment>
+        <Comment>Pattern repeats after 003F (Probably 3B-&gt;3F cycle)</Comment>
         <UI name="select" />
         <Value>
           <Data>0000</Data>
@@ -10042,7 +10042,7 @@
     <Objects>
       <Object>0116</Object>
     </Objects>
-    <Description>White clothed Gerudo</Description>
+    <Description>White Clothed Gerudo</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -10070,7 +10070,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Block placement actor</Description>
+    <Description>Block Placement Actor</Description>
     <Variables>
       <Variable default="3F" nullable="true">
         <Capture>v &amp;&gt;&gt; 0x3F</Capture>
@@ -10116,7 +10116,7 @@
     <Objects>
       <Object>0110</Object>
     </Objects>
-    <Description>Kakariko Cucco lady</Description>
+    <Description>Kakariko Cucco Lady</Description>
     <Variables />
   </Actor>
   <Actor id="013D" name="En_Gm">
@@ -10137,7 +10137,7 @@
     <Objects>
       <Object>0127</Object>
     </Objects>
-    <Description>Bean seller</Description>
+    <Description>Bean Seller</Description>
     <Variables>
       <Variable default="FFFF">
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -10150,7 +10150,7 @@
     <Objects>
       <Object>0128</Object>
     </Objects>
-    <Description>Carpenter's son</Description>
+    <Description>Carpenter's Son</Description>
     <Comment>FIXME: (ignores you?)</Comment>
     <Variables>
       <Variable>
@@ -10193,7 +10193,7 @@
     <Objects>
       <Object>012F</Object>
     </Objects>
-    <Description>Square signpost</Description>
+    <Description>Square Signpost</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -10564,7 +10564,7 @@
     <Objects>
       <Object>0097</Object>
     </Objects>
-    <Description>Hyrule Castle guard</Description>
+    <Description>Hyrule Castle Guard</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -10664,7 +10664,7 @@
       <Object>0001</Object>
       <Object>????</Object>
     </Objects>
-    <Description>Checkable spot (Green Navi)</Description>
+    <Description>Checkable Spot (Green Navi)</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xF800</Capture>
@@ -10672,7 +10672,7 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Bean Seller's dialog</Description>
+          <Description>Bean Seller's Dialog</Description>
           <Comment>FIXME: Doesn't work properly?</Comment>
           <Meta />
         </Value>
@@ -10683,13 +10683,13 @@
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Gravekeeper's diary dialog</Description>
+          <Description>Gravekeeper's Diary Dialog</Description>
           <Comment>Navi hovers higher than normal</Comment>
           <Meta />
         </Value>
         <Value>
           <Data>03</Data>
-          <Description>Royal Composer Sharp's grave dialog</Description>
+          <Description>Royal Composer Sharp's Grave Dialog</Description>
           <Comment>Sets Temporary Switch Flag 09, spawns Sharp</Comment>
           <Meta>
             <Object>006E</Object>
@@ -10698,12 +10698,12 @@
         </Value>
         <Value>
           <Data>04</Data>
-          <Description>"Royal Family Tomb" dialog</Description>
+          <Description>"Royal Family Tomb" Dialog</Description>
           <Meta />
         </Value>
         <Value>
           <Data>05</Data>
-          <Description>Royal Composer Flat's grave dialog</Description>
+          <Description>Royal Composer Flat's Grave Dialog</Description>
           <Comment>Sets Temporary Switch Flag 08, spawns Flat</Comment>
           <Meta>
             <Object>006E</Object>
@@ -10735,7 +10735,7 @@
     <Objects>
       <Object>010F</Object>
     </Objects>
-    <Description>Potion Shop hag</Description>
+    <Description>Potion Shop Hag</Description>
     <Variables />
   </Actor>
   <Actor id="014A" name="En_Mk">
@@ -10756,7 +10756,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Bombchu Bowling Alley pit</Description>
+    <Description>Bombchu Bowling Alley Pit</Description>
     <Variables />
   </Actor>
   <Actor id="014D" name="En_Owl">
@@ -10922,7 +10922,7 @@
     <Objects>
       <Object>0002</Object>
     </Objects>
-    <Description>Grave flower</Description>
+    <Description>Grave Flower</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0x3</Capture>
@@ -10964,12 +10964,12 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Sun emblem</Description>
+          <Description>Sun Emblem</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Block with sun emblem</Description>
+          <Description>Block with Sun Emblem</Description>
           <Meta />
         </Value>
       </Variable>
@@ -10979,7 +10979,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Rock/Bush groups</Description>
+    <Description>Rock/Shrub Groups</Description>
     <Comment>FIXME</Comment>
     <Variables>
       <Variable>
@@ -10988,17 +10988,17 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Circle of shrubs with one in the middle, random drops</Description>
+          <Description>Circle of Shrubs with one in the middle, random drops</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Scattered shrubs, random drops</Description>
+          <Description>Scattered Shrubs, random drops</Description>
           <Meta />
         </Value>
         <Value>
           <Data>02</Data>
-          <Description>Circle of rocks, random drops</Description>
+          <Description>Circle of Rocks, random drops</Description>
           <Meta />
         </Value>
         <Value uihide="true">
@@ -11031,7 +11031,7 @@
     <Objects>
       <Object>0133</Object>
     </Objects>
-    <Description>Windmill man</Description>
+    <Description>Windmill Man</Description>
     <Variables />
   </Actor>
   <Actor id="0155" name="En_Changer">
@@ -11045,7 +11045,7 @@
     <Objects>
       <Object>00F1</Object>
     </Objects>
-    <Description>Large stone face (Spirit Temple)</Description>
+    <Description>Large Stone Face (Spirit Temple)</Description>
     <Variables />
   </Actor>
   <Actor id="0157" name="Bg_Jya_Lift">
@@ -11066,8 +11066,8 @@
     <Objects>
       <Object>00F1</Object>
     </Objects>
-    <Description>Light blocking rock (Spirit Temple)</Description>
-    <Comment>bombable, targetable</Comment>
+    <Description>Light Blocking Rock (Spirit Temple)</Description>
+    <Comment>Bombable, targetable</Comment>
     <Variables />
   </Actor>
   <Actor id="015A" name="Bg_Jya_Amishutter">
@@ -11082,7 +11082,7 @@
     <Objects>
       <Object>00F1</Object>
     </Objects>
-    <Description>Bombable rock wall</Description>
+    <Description>Bombable Rock Wall</Description>
     <Comment>FIXME: Test for sure</Comment>
     <Variables>
       <Variable default="3F" nullable="true">
@@ -11096,7 +11096,7 @@
     <Objects>
       <Object>00AF</Object>
     </Objects>
-    <Description>Giant three sided Goron statue</Description>
+    <Description>Giant Three Sided Goron Statue</Description>
     <Comment>FIXME: Variable</Comment>
     <Variables />
   </Actor>
@@ -11104,14 +11104,14 @@
     <Objects>
       <Object>00E1</Object>
     </Objects>
-    <Description>Ganon's Organ and surroundings</Description>
+    <Description>Ganon's Organ and Surroundings</Description>
     <Variables />
   </Actor>
   <Actor id="015F" name="En_Siofuki">
     <Objects>
       <Object>013A</Object>
     </Objects>
-    <Description>Water spout</Description>
+    <Description>Water Spout</Description>
     <Comment>FIXME: Document Petrie's findings</Comment>
     <Variables>
       <Variable>
@@ -11135,7 +11135,7 @@
     <Objects>
       <Object>013B</Object>
     </Objects>
-    <Description>Whirlpool effect</Description>
+    <Description>Whirlpool Effect</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -11164,7 +11164,7 @@
     <Objects>
       <Object>013C</Object>
     </Objects>
-    <Description>Running man (Child version)</Description>
+    <Description>Running Man (Child Version)</Description>
     <Comment>FIXME: Variables</Comment>
     <Variables>
       <Variable>
@@ -11196,42 +11196,42 @@
         <UI name="select" />
         <Value>
           <Data>0000</Data>
-          <Description>Standing boy</Description>
+          <Description>Standing Boy</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Standing girl</Description>
+          <Description>Standing Girl</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Boxing boy</Description>
+          <Description>Boxing Boy</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0003</Data>
-          <Description>Blocking boy</Description>
+          <Description>Blocking Boy</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0004</Data>
-          <Description>Backflipping boy</Description>
+          <Description>Backflipping Boy</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0005</Data>
-          <Description>Sitting girl</Description>
+          <Description>Sitting Girl</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0006</Data>
-          <Description>Standing girl</Description>
+          <Description>Standing Girl</Description>
           <Meta />
         </Value>
         <Value>
           <Data>000C</Data>
-          <Description>Blond girl</Description>
+          <Description>Blond Girl</Description>
           <Meta />
         </Value>
       </Variable>
@@ -11279,7 +11279,7 @@
     <Objects>
       <Object>00EC</Object>
     </Objects>
-    <Description>Kakariko village rooftop man</Description>
+    <Description>Kakariko village Rooftop Man</Description>
     <Variables />
   </Actor>
   <Actor id="0168" name="En_Ex_Item">
@@ -11305,12 +11305,12 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Brick pillar</Description>
+          <Description>Brick Pillar</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Brick throne</Description>
+          <Description>Brick Throne</Description>
           <Meta />
         </Value>
       </Variable>
@@ -11320,21 +11320,21 @@
     <Objects>
       <Object>0144</Object>
     </Objects>
-    <Description>Magic carpet man</Description>
+    <Description>Magic Carpet Man</Description>
     <Variables />
   </Actor>
   <Actor id="016B" name="En_Jsjutan">
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Displays GI objects / Lost Woods Slingshot Game?</Description>
+    <Description>Displays GI Objects / Lost Woods Slingshot Game?</Description>
     <Variables />
   </Actor>
   <Actor id="016C" name="En_Cs">
     <Objects>
       <Object>0145</Object>
     </Objects>
-    <Description>Graveyard boy</Description>
+    <Description>Graveyard Boy</Description>
     <Comment>FIXME: Path</Comment>
     <Variables>
       <Variable>
@@ -11373,7 +11373,7 @@
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0x3F</Capture>
-        <Description>Npc</Description>
+        <Description>NPC</Description>
         <UI name="select" />
         <Value>
           <Data>0000</Data>
@@ -11384,105 +11384,105 @@
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Fat woman in white, blues &amp; yellow</Description>
+          <Description>Fat Woman in white, blues &amp; yellow</Description>
           <Meta>
             <Object>018C</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Bearded man in white &amp; green</Description>
+          <Description>Bearded Man in white &amp; green</Description>
           <Meta>
             <Object>0107</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0003</Data>
-          <Description>Jogging man (Sakon)</Description>
+          <Description>Jogging Man (Sakon)</Description>
           <Meta>
             <Object>0111</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0004</Data>
-          <Description>Staunch man in black &amp; green</Description>
+          <Description>Staunch Man in black &amp; green</Description>
           <Meta>
             <Object>0107</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0005</Data>
-          <Description>Begging man</Description>
+          <Description>Begging Man</Description>
           <Meta>
             <Object>0111</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0006</Data>
-          <Description>Old woman in white</Description>
+          <Description>Old Woman in white</Description>
           <Meta>
             <Object>010D</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0007</Data>
-          <Description>Old man in blue</Description>
+          <Description>Old Man in blue</Description>
           <Meta>
             <Object>010C</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0008</Data>
-          <Description>Thin woman in lilac</Description>
+          <Description>Thin Woman in lilac</Description>
           <Meta>
             <Object>0108</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0009</Data>
-          <Description>Laughing man in red &amp; white</Description>
+          <Description>Laughing Man in red &amp; white</Description>
           <Meta>
             <Object>0111</Object>
           </Meta>
         </Value>
         <Value>
           <Data>000A</Data>
-          <Description>Explaining man in blue &amp; white</Description>
+          <Description>Explaining Man in blue &amp; white</Description>
           <Meta>
             <Object>0111</Object>
           </Meta>
         </Value>
         <Value>
           <Data>000B</Data>
-          <Description>Thin woman in blue &amp; yellow</Description>
+          <Description>Thin Woman in blue &amp; yellow</Description>
           <Meta>
             <Object>0108</Object>
           </Meta>
         </Value>
         <Value>
           <Data>000C</Data>
-          <Description>Looking man in crimson</Description>
+          <Description>Looking Man in crimson</Description>
           <Meta>
             <Object>0111</Object>
           </Meta>
         </Value>
         <Value>
           <Data>000D</Data>
-          <Description>Red haired man in green &amp; lilac</Description>
+          <Description>Red-Haired Man in green &amp; lilac</Description>
           <Meta>
             <Object>0107</Object>
           </Meta>
         </Value>
         <Value>
           <Data>000E</Data>
-          <Description>Bearded, red haired man in green &amp; white</Description>
+          <Description>Bearded, Red-Haired Man in green &amp; white</Description>
           <Meta>
             <Object>0111</Object>
           </Meta>
         </Value>
         <Value>
           <Data>000F</Data>
-          <Description>Bald man in brown</Description>
+          <Description>Bald Man in brown</Description>
           <Meta>
             <Object>010C</Object>
           </Meta>
@@ -11496,14 +11496,14 @@
         </Value>
         <Value>
           <Data>0011</Data>
-          <Description>Staunch man two shades of green</Description>
+          <Description>Staunch Man in two shades of green</Description>
           <Meta>
             <Object>0107</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0013</Data>
-          <Description>Bald man in purple</Description>
+          <Description>Bald Man in purple</Description>
           <Meta>
             <Object>010C</Object>
           </Meta>
@@ -11535,7 +11535,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Rain and lightning</Description>
+    <Description>Rain and Lightning</Description>
     <Variables />
   </Actor>
   <Actor id="0171" name="En_Mag">
@@ -11549,7 +11549,7 @@
     <Objects>
       <Object>014B</Object>
     </Objects>
-    <Description>Metal grate door</Description>
+    <Description>Metal Grate Door</Description>
     <Comment>Navi says you have the wrong kind of key, boss door?</Comment>
     <Variables />
   </Actor>
@@ -11565,7 +11565,7 @@
     <Objects>
       <Object>014C</Object>
     </Objects>
-    <Description>Ganon's Tower Collapsing (Cutscene set pieces)</Description>
+    <Description>Ganon's Tower Collapsing (Cutscene Set Pieces)</Description>
     <Variables />
   </Actor>
   <Actor id="0175" name="En_Po_Field">
@@ -11585,7 +11585,7 @@
         </Value>
         <Value>
           <Data>FFFF</Data>
-          <Description>Normal poe, circles around you</Description>
+          <Description>Normal Poe, circles around you</Description>
           <Meta />
         </Value>
       </Variable>
@@ -11595,14 +11595,14 @@
     <Objects>
       <Object>014D</Object>
     </Objects>
-    <Description>Lava particle fountain (Death Mountain panorama)</Description>
+    <Description>Lava Particle Fountain (Death Mountain panorama)</Description>
     <Variables />
   </Actor>
   <Actor id="0177" name="Bg_Zg">
     <Objects>
       <Object>0156</Object>
     </Objects>
-    <Description>Metal bars (Ganon's Castle)</Description>
+    <Description>Metal Bars (Ganon's Castle)</Description>
     <Comment>FIXME: variable</Comment>
     <Variables>
       <Variable default="3F" nullable="true">
@@ -11616,7 +11616,7 @@
     <Objects>
       <Object>0097</Object>
     </Objects>
-    <Description>Hyrule guard</Description>
+    <Description>Hyrule Guard</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -11624,7 +11624,7 @@
         <UI />
         <Value>
           <Data>0000</Data>
-          <Description>Time teller</Description>
+          <Description>Time Teller</Description>
           <Meta />
         </Value>
         <Value repeat="+">
@@ -11676,7 +11676,7 @@
     <Objects>
       <Object>0155</Object>
     </Objects>
-    <Description>Treasure Chest game man</Description>
+    <Description>Treasure Chest Game Man</Description>
     <Variables />
   </Actor>
   <Actor id="017D" name="Obj_Makeoshihiki">
@@ -11691,14 +11691,14 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Sun's Song effect</Description>
+    <Description>Sun's Song Effect</Description>
     <Variables />
   </Actor>
   <Actor id="017F" name="End_Title">
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>"The End" message</Description>
+    <Description>"The End" Message</Description>
     <Variables />
   </Actor>
   <Actor id="0181" name="En_Torch">
@@ -11737,7 +11737,7 @@
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Windmill man breakdancing</Description>
+          <Description>Windmill Man Breakdancing</Description>
           <Meta>
             <Object>0133</Object>
           </Meta>
@@ -11758,28 +11758,28 @@
         </Value>
         <Value>
           <Data>0005</Data>
-          <Description>White-haired man in blue</Description>
+          <Description>White-Haired Man in blue</Description>
           <Meta>
             <Object>010C</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0006</Data>
-          <Description>Black-bearded man in white and green</Description>
+          <Description>Black-Bearded Man in white and green</Description>
           <Meta>
             <Object>0107</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0007</Data>
-          <Description>Bushy-haired woman in red and black</Description>
+          <Description>Bushy-Haired Woman in red and black</Description>
           <Meta>
             <Object>0115</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0008</Data>
-          <Description>Little old lady</Description>
+          <Description>Little Old Lady</Description>
           <Meta>
             <Object>010D</Object>
           </Meta>
@@ -11849,7 +11849,7 @@
         </Value>
         <Value>
           <Data>0012</Data>
-          <Description>Gerudo, spikey-haired, Line-dancing</Description>
+          <Description>Gerudo, spikey-haired, line-dancing</Description>
           <Meta>
             <Object>0116</Object>
           </Meta>
@@ -11877,21 +11877,21 @@
         </Value>
         <Value>
           <Data>0016</Data>
-          <Description>Floating cucco</Description>
+          <Description>Floating Cucco</Description>
           <Meta>
             <Object>0013</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0017</Data>
-          <Description>Floating cucco 2</Description>
+          <Description>Floating Cucco 2</Description>
           <Meta>
             <Object>0013</Object>
           </Meta>
         </Value>
         <Value>
           <Data>0018</Data>
-          <Description>Walking cucco</Description>
+          <Description>Walking Cucco</Description>
           <Meta>
             <Object>0013</Object>
           </Meta>
@@ -11940,7 +11940,7 @@
         </Value>
         <Value>
           <Data>001F</Data>
-          <Description>Belly slapping Goron</Description>
+          <Description>Belly Slapping Goron</Description>
           <Meta>
             <Object>00C9</Object>
           </Meta>
@@ -11990,47 +11990,47 @@
         <UI />
         <Value>
           <Data>0000</Data>
-          <Description>Pink spiral beam</Description>
+          <Description>Pink Spiral Beam</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Green spiral beam</Description>
+          <Description>Green Spiral Beam</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Purple spiral beam</Description>
+          <Description>Purple Spiral Beam</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0003</Data>
-          <Description>Blue spiral beam</Description>
+          <Description>Blue Spiral Beam</Description>
           <Meta />
         </Value>
         <Value repeat="+">
           <Data>0004</Data>
-          <Description>Black spiral beam</Description>
+          <Description>Black Spiral Beam</Description>
           <Meta />
         </Value>
         <Value>
           <Data>000C</Data>
-          <Description>Black and green spiral beam</Description>
+          <Description>Black and Green Spiral Beam</Description>
           <Meta />
         </Value>
         <Value>
           <Data>000D</Data>
-          <Description>Gray and green spiral beam</Description>
+          <Description>Gray and Green Spiral Beam</Description>
           <Meta />
         </Value>
         <Value>
           <Data>000E</Data>
-          <Description>Light blue spiral beam</Description>
+          <Description>Light Blue Spiral Beam</Description>
           <Meta />
         </Value>
         <Value>
           <Data>000F</Data>
-          <Description>Light purple spiral beam</Description>
+          <Description>Light Purple Spiral Beam</Description>
           <Meta />
         </Value>
       </Variable>
@@ -12456,7 +12456,7 @@
     <Objects>
       <Object>015E</Object>
     </Objects>
-    <Description>Cursed Skulltula people</Description>
+    <Description>Cursed Skulltula People</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -12540,14 +12540,14 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Uncursed Skulltula people</Description>
+    <Description>Uncursed Skulltula People</Description>
     <Variables />
   </Actor>
   <Actor id="018A" name="Oceff_Wipe">
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Zelda's Lullaby effect</Description>
+    <Description>Zelda's Lullaby Effect</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -12555,12 +12555,12 @@
         <UI name="select" />
         <Value>
           <Data>0000</Data>
-          <Description>Purple wormhole</Description>
+          <Description>Purple Wormhole</Description>
           <Meta />
         </Value>
         <Value repeat="+">
           <Data>0001</Data>
-          <Description>Blue wormhole</Description>
+          <Description>Blue Wormhole</Description>
           <Meta />
         </Value>
       </Variable>
@@ -12570,7 +12570,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Song of Storm's effect</Description>
+    <Description>Song of Storm's Effect</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -12624,18 +12624,18 @@
         <UI name="select" />
         <Value>
           <Data>00</Data>
-          <Description>Large flat square floor tile, makes water noises when walking on it</Description>
+          <Description>Large Flat Square Floor Tile, makes water noises when walking on it</Description>
           <Meta />
         </Value>
         <Value>
           <Data>01</Data>
-          <Description>Large vertical gate</Description>
+          <Description>Large Vertical Gate</Description>
           <Meta />
         </Value>
         <Value uihide="true" repeat="+">
           <Data>02</Data>
           <Description>Invisible, glitched gate</Description>
-          <Comment>can still attack or run into it</Comment>
+          <Comment>Can still attack or run into it</Comment>
           <Meta />
         </Value>
       </Variable>
@@ -12674,17 +12674,17 @@
         <UI />
         <Value>
           <Data>0000</Data>
-          <Description>Black particles?</Description>
+          <Description>Black Particles?</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0001</Data>
-          <Description>Black particles?</Description>
+          <Description>Black Particles?</Description>
           <Meta />
         </Value>
         <Value>
           <Data>0002</Data>
-          <Description>Round stone thing, explodes as soon as area loads</Description>
+          <Description>Round Stone thing, Explodes as soon as area loads</Description>
           <Meta />
         </Value>
         <Value repeat="+">
@@ -12712,7 +12712,7 @@
     <Objects>
       <Object>0162</Object>
     </Objects>
-    <Description>Gerudo Fortress training area gate</Description>
+    <Description>Gerudo Fortress Training Area Gate</Description>
     <Variables>
       <Variable default="00FF" nullable="true">
         <Capture>v &amp;&gt;&gt; 0xFF</Capture>
@@ -12734,7 +12734,7 @@
         <UI name="select" />
         <Value>
           <Data>1A</Data>
-          <Description>Scrub on path to Deku Slingshot</Description>
+          <Description>Scrub on Path to Deku Slingshot</Description>
           <Meta />
         </Value>
         <Value>
@@ -12894,7 +12894,7 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Dampe's Minigame Collectibles</Description>
+    <Description>Dampe's Gravedigging Minigame Dig Spots</Description>
     <Variables />
   </Actor>
   <Actor id="0197" name="En_GeldB">
@@ -12916,21 +12916,21 @@
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Epona's Song effect</Description>
+    <Description>Epona's Song Effect</Description>
     <Variables />
   </Actor>
   <Actor id="0199" name="Oceff_Wipe3">
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Saria's Song effect</Description>
+    <Description>Saria's Song Effect</Description>
     <Variables />
   </Actor>
   <Actor id="019A" name="En_Niw_Girl">
     <Objects>
       <Object>016A</Object>
     </Objects>
-    <Description>Girl chasing Cucco</Description>
+    <Description>Girl Chasing Cucco</Description>
     <Variables />
   </Actor>
   <Actor id="019B" name="En_Dog">
@@ -13037,82 +13037,82 @@
         <UI />
         <Value>
           <Data>0</Data>
-          <Description>Dirty blond dog</Description>
+          <Description>Dirty blond</Description>
           <Meta />
         </Value>
         <Value>
           <Data>1</Data>
-          <Description>Chocolate brown dog (kinda yellowish when in a certain light)</Description>
+          <Description>Chocolate brown (kinda yellowish when in a certain light)</Description>
           <Meta />
         </Value>
         <Value>
           <Data>2</Data>
-          <Description>Red dog</Description>
+          <Description>Red</Description>
           <Meta />
         </Value>
         <Value>
           <Data>3</Data>
-          <Description>Multicolored, flashing dog</Description>
+          <Description>Multicolored, flashing</Description>
           <Meta />
         </Value>
         <Value>
           <Data>4</Data>
-          <Description>Red dog</Description>
+          <Description>Red</Description>
           <Meta />
         </Value>
         <Value>
           <Data>5</Data>
-          <Description>Multicolored, flashing dog</Description>
+          <Description>Multicolored, flashing</Description>
           <Meta />
         </Value>
         <Value>
           <Data>6</Data>
-          <Description>Dark dog (black fur)</Description>
+          <Description>Dark (black fur)</Description>
           <Meta />
         </Value>
         <Value>
           <Data>7</Data>
-          <Description>Green dog</Description>
+          <Description>Green</Description>
           <Meta />
         </Value>
         <Value>
           <Data>8</Data>
-          <Description>Red dog</Description>
+          <Description>Red</Description>
           <Meta />
         </Value>
         <Value>
           <Data>9</Data>
-          <Description>Purple dog</Description>
+          <Description>Purple</Description>
           <Meta />
         </Value>
         <Value>
           <Data>A</Data>
-          <Description>Red dog</Description>
+          <Description>Red</Description>
           <Meta />
         </Value>
         <Value>
           <Data>B</Data>
-          <Description>Green dog</Description>
+          <Description>Green</Description>
           <Meta />
         </Value>
         <Value>
           <Data>C</Data>
-          <Description>Green dog</Description>
+          <Description>Green</Description>
           <Meta />
         </Value>
         <Value>
           <Data>D</Data>
-          <Description>Black dog</Description>
+          <Description>Black</Description>
           <Meta />
         </Value>
         <Value>
           <Data>E</Data>
-          <Description>Black dog</Description>
+          <Description>Black</Description>
           <Meta />
         </Value>
         <Value>
           <Data>F</Data>
-          <Description>Purple dog</Description>
+          <Description>Purple</Description>
           <Meta />
         </Value>
       </Variable>
@@ -13122,14 +13122,14 @@
     <Objects>
       <Object>0024</Object>
     </Objects>
-    <Description>Golden Skulltula token</Description>
+    <Description>Golden Skulltula Token</Description>
     <Variables />
   </Actor>
   <Actor id="019D" name="Bg_Spot01_Objects2">
     <Objects>
       <Object>0001</Object>
     </Objects>
-    <Description>Kakariko Village set pieces</Description>
+    <Description>Kakariko Village Set Pieces</Description>
     <Comment>FIXME: Objects</Comment>
     <Variables>
       <Variable>
@@ -13181,7 +13181,7 @@
         <Value>
           <Data>FF</Data>
           <Description>?</Description>
-          <Comment>used with complete shooting gallery</Comment>
+          <Comment>Used with complete shooting gallery</Comment>
           <Meta />
         </Value>
       </Variable>
@@ -13278,7 +13278,7 @@
     <Objects>
       <Object>0178</Object>
     </Objects>
-    <Description>Bombchu Bowling Alley game</Description>
+    <Description>Bombchu Bowling Alley Game</Description>
     <Variables />
   </Actor>
   <Actor id="01A6" name="En_Hs2">
@@ -13414,14 +13414,14 @@
     <Objects>
       <Object>0182</Object>
     </Objects>
-    <Description>Entwined lovers (Honey &amp; Darling)</Description>
+    <Description>Entwined Lovers (Honey &amp; Darling)</Description>
     <Variables />
   </Actor>
   <Actor id="01AD" name="En_Mu">
     <Objects>
       <Object>0182</Object>
     </Objects>
-    <Description>Haggling townspeople</Description>
+    <Description>Haggling Townspeople</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -13698,8 +13698,8 @@
     <Objects>
       <Object>0186</Object>
     </Objects>
-    <Description>Chunk of stone</Description>
-    <Comment>non-solid, possibly Ganon's Tower rubble</Comment>
+    <Description>Chunk of Stone</Description>
+    <Comment>Non-solid, possibly Ganon's Tower rubble</Comment>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -13735,7 +13735,7 @@
     <Objects>
       <Object>0179</Object>
     </Objects>
-    <Description>Sinking lava platform (Ganon's Castle)</Description>
+    <Description>Sinking Lava Platform (Ganon's Castle)</Description>
     <Comment>Narrow, maze-like platform (sinks)</Comment>
     <Variables>
       <Variable>
@@ -13759,7 +13759,7 @@
     <Objects>
       <Object>0179</Object>
     </Objects>
-    <Description>Clear block</Description>
+    <Description>Clear Block</Description>
     <Comment-Other>
       The timer works as such:
 
@@ -13884,14 +13884,14 @@
     <Objects>
       <Object>0189</Object>
     </Objects>
-    <Description>Poe Collector and surroundings</Description>
+    <Description>Poe Collector and Surroundings</Description>
     <Variables />
   </Actor>
   <Actor id="01B9" name="En_Gs">
     <Objects>
       <Object>0188</Object>
     </Objects>
-    <Description>Gossip stone</Description>
+    <Description>Gossip Stone</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -14081,7 +14081,7 @@
     <Objects>
       <Object>0059</Object>
     </Objects>
-    <Description>Bombable stone wall</Description>
+    <Description>Bombable Stone Wall</Description>
     <Variables />
   </Actor>
   <Actor id="01BB" name="Bg_Mizu_Shutter">
@@ -14093,7 +14093,7 @@
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xF000</Capture>
-        <Description>gate size</Description>
+        <Description>Gate Size</Description>
         <UI />
         <Value>
           <Data>0</Data>
@@ -14151,7 +14151,7 @@
     <Objects>
       <Object>0178</Object>
     </Objects>
-    <Description>Bombchu Bowling alley wall</Description>
+    <Description>Bombchu Bowling Alley Wall</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -14200,7 +14200,7 @@
     <Objects>
       <Object>018E</Object>
     </Objects>
-    <Description>Fake door</Description>
+    <Description>Fake Door</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -14314,19 +14314,19 @@
         <Value>
           <Data>0001</Data>
           <Description>Stalactite (ceiling)</Description>
-          <Comment>falls when Link is underneath</Comment>
+          <Comment>Falls when Link is underneath</Comment>
           <Meta />
         </Value>
         <Value>
           <Data>0002</Data>
           <Description>Regrowing Stalactite (ceiling)</Description>
-          <Comment>falls when Link is underneath</Comment>
+          <Comment>Falls when Link is underneath</Comment>
           <Meta />
         </Value>
         <Value repeat="+">
           <Data>0003</Data>
           <Description>Stalactite (ceiling)</Description>
-          <Comment>falls when Link is underneath</Comment>
+          <Comment>Falls when Link is underneath</Comment>
           <Meta />
         </Value>
       </Variable>
@@ -14336,7 +14336,7 @@
     <Objects>
       <Object>006B</Object>
     </Objects>
-    <Description>2D Ice bars (for a door?)</Description>
+    <Description>2D Ice Bars (for a door?)</Description>
     <Variables />
   </Actor>
   <Actor id="01C9" name="En_Kakasi2">
@@ -14438,7 +14438,7 @@
     <Objects>
       <Object>0169</Object>
     </Objects>
-    <Description>Gerudo giving you membership card</Description>
+    <Description>Gerudo Giving you Membership Card</Description>
     <Variables />
   </Actor>
   <Actor id="01D1" name="Obj_Timeblock">
@@ -14446,7 +14446,7 @@
       <Object>0190</Object>
       <Object>00A8</Object>
     </Objects>
-    <Description>Time block</Description>
+    <Description>Time Block</Description>
     <Variables>
       <Variable>
         <Capture>v &amp;&gt;&gt; 0xFFFF</Capture>
@@ -14500,14 +14500,14 @@
     <Objects>
       <Object>0002</Object>
     </Objects>
-    <Description>Bronze boulder</Description>
+    <Description>Bronze Boulder</Description>
     <Variables />
   </Actor>
   <Actor id="01D3" name="En_Zl4">
     <Objects>
       <Object>0191</Object>
     </Objects>
-    <Description>Princess Zelda child</Description>
+    <Description>Princess Zelda Child</Description>
     <Variables />
   </Actor>
   <Actor id="01D4" name="En_Mm2">
